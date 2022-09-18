@@ -1,8 +1,6 @@
-x = input("1. sayı: ")
-y = input("2. sayı: ")
-
-toplam = int(x) + int(y)
-
-print(toplam)
+sayi1 = input('1. Sayı : ')
+sayi2 = input('2. Sayı : ')
+toplam=float(sayi1)+float(sayi2)
+print("Toplam :{0} ".format(toplam))
 
 """Sadece Basit toplama yapabilir"""
